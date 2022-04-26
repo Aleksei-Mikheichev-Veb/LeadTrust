@@ -1166,7 +1166,7 @@ li:hover a.menu__link::before {
 
     .company-slider .swiper-button-prev::after,
     .company-slider .swiper-button-next::after {
-        color: #000;
+        color: #fff;
         font-size: 40px;
         position: absolute;
     }
