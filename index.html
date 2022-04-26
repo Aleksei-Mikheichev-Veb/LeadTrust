@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="first">
+            <div class="container">
+                <header class="header _anim-items _anim-no-hide anim-top">
+                    <div class="header__container">
+                        <div class="header__row">
+                            <div class="header__menu menu">
+                                <div class="menu__icon">
+                                    <span></span>
+                                </div>
+                                <nav class="menu__body">
+                                    <ul class="menu__list">
+                                        <li><a data-goto=".digital__title" href="#" class="menu__link">Информация</a>
+                                        </li>
+                                        <li><a data-goto=".steps" href="#" class="menu__link">Написать нам</a>
+                                        </li>
+                                        <li><a data-goto=".company__title" href="#" class="menu__link">Услуги</a>
+                                        </li>
+                                        <li><a data-goto=".decision" href="#" class="menu__link">О нас</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="first__design">
+                    <div class="first__row">
+                        <div class="first__body">
+                            <a data-goto=".steps" href="#" class="menu__link">
+                                <img src="img/icon/logo.webp" data-goto=".steps" class='logo menu__link' alt="">
+                            </a>
+                            <h1 class="first__title _anim-items _anim-no-hide">Дизайн,<br> кодинг</h1>
+                            <div class="first__subtitle _anim-items _anim-no-hide">Трафик</div>
+                            <div class="first__link first__link-decktop link _anim-items _anim-no-hide">
+                                <a href="" class="link__link">
+                                    Заказать
+                                </a>
+                                <div class="link__play">
+                                    <div class="link__play-play"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="img/main.webp" class="first__img first__img-desctop" alt="">
+            <img src="img/main-mobile.png" class="first__img first__img-mobile" alt="">
+            <div class="first__link first__link-mobile link _anim-items _anim-no-hide">
+                <a href="" class="link__link">
+                    Заказать
+                </a>
+            </div>
+        </section>
+        <section class="company">
+            <div class="company__container">
+                <div class="company__title title">120+ компаний довольны нами присоединяйтесь к их числу</div>
+                <div class="company__row">
+                    <div class="company__before"><img src="img/before.webp" alt=""></div>
+                    <div class="company__after">
+                        <div class="company__after-title">После</div>
+                        <div class="company__after-subtitle">Ваши задачи</div>
+                        <div class="company__after-box"><img src="img/do.webp" alt="" class="company__after-img"></div>
+                        <div class="company__after-box"><img src="img/other.webp" alt=""
+                                class="company__after-img company__after-img--bottom">
+                        </div>
+                        <!-- <div class="company__after-box">
+                            <div class="after__box">
+                                <img src="img/do.webp" alt="">
+                                <div class="after__box-body">
+                                    <div class="after__box-title">Чат-бот</div>
+                                    <div class="after__box-text">сделано!</div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- <div class="company__after-box company__after-box--bottom">
+                            <div class="after__box">
+                                <img src="img/other.webp" alt="">
+                                <div class="after__box-body after__box-body-bottom">
+                                    <div class="after__box-title after__box-title--black">И многое</div>
+                                    <div class="after__box-text after__box-text--black">другое</div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="company__body company__body-desctop">
+                        <div class="company__item ">
+                            <div class="company__iteem-box">
+                                <div class="company__item-title">Дизайн</div>
+                                <div class="company__item-text company__item-text-1">Создание креативов, дизайн
+                                    сайтов,
+                                    логотипы, баннеры и
+                                    многое другое!</div>
+                            </div>
+                        </div>
+                        <div class="company__item ">
+                            <div class="company__iteem-box">
+                                <div class="company__item-title">Разработка</div>
+                                <div class="company__item-text company__item-text-2">Разработка чат-ботов,
+                                    уникальные
+                                    скрипты для сайтов,
+                                    автоматизации CRM. Напишите нам - мы сделаем!</div>
+                            </div>
+                        </div>
+                        <div class="company__item">
+                            <div class="company__iteem-box">
+                                <div class="company__item-title">Кодинг</div>
+                                <div class="company__item-text company__item-text-3">Доработка готовых программ,
+                                    создание уникальных
+                                    решений с
+                                    нуля. Вам нужна автоматизация/оптимизация? Напишите нашему менеджеру, мы
+                                    решим
+                                    ваш
+                                    вопрос.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__body company__body-mobile">
+                        <div class="company-slider swiper-container">
+                            <div class="company-slider__wrapper swiper-wrapper">
+                                <div class="company__item company-slider__slide swiper-slide">
+                                    <div class="company__iteem-box">
+                                        <div class="company__item-title">Дизайн</div>
+                                        <div class="company__item-text company__item-text-1">Создание креативов, дизайн
+                                            сайтов,
+                                            логотипы, баннеры и
+                                            многое другое!</div>
+                                    </div>
+                                </div>
+                                <div class="company__item company-slider__slide swiper-slide">
+                                    <div class="company__iteem-box">
+                                        <div class="company__item-title">Разработка</div>
+                                        <div class="company__item-text company__item-text-2">Разработка чат-ботов,
+                                            уникальные
+                                            скрипты для сайтов,
+                                            автоматизации CRM. Напишите нам - мы сделаем!</div>
+                                    </div>
+                                </div>
+                                <div class="company__item company-slider__slide swiper-slide">
+                                    <div class="company__iteem-box">
+                                        <div class="company__item-title">Кодинг</div>
+                                        <div class="company__item-text company__item-text-3">Доработка готовых программ,
+                                            создание уникальных
+                                            решений с
+                                            нуля. Вам нужна автоматизация/оптимизация? Напишите нашему менеджеру, мы
+                                            решим
+                                            ваш
+                                            вопрос.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <div class="company__bg"><img class="company__bg-img" src="img/company-bg.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section class="digital">
+            <div class="digital__container">
+                <div class="digital__title title">Решение любых* Digital<br> задач от 1 до 14 дней!</div>
+                <div class="digital__box">
+                    <div class="digital__text">Мы - ваш лучший друг в дизайне кодинге, разработке. Потому что мы можем
+                        сделать любую вашу задачу и сбросить с вас груз сложных задач. Зачем искать ряд подрядчиков,
+                        если
+                        можно сделать все за раз, в одном месте по выгодной цене?</div>
+                    <div class="digital__link digital__link-desctop">
+                        <div class="digital__link-box ">
+                            <a href="" class="digital__link-link"> ПОЛУЧИТЬ<br> СКИДКУ!</a>
+                        </div>
+                    </div>
+                    <div class="digital__link-mobile">
+                        <a href="" class="digital__link--link-mobile"><img src="img/sale.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <img src="img/colors.webp" alt="" class="digital__img digital__img-desctop">
+            <img src="img/colors-mobile.png" alt="" class="digital__img digital__img-mobile">
+        </section>
+        <section class="trust">
+            <!-- <img src="img/trust.webp" alt="" class="trust__img-1">
+            <img src="img/map.webp" alt="" class="trust__img-2"> -->
+            <div class="trust__container">
+                <div class="trust__title title">Нам доверяют<br> везде в мире</div>
+                <div class="trust__subtitle">Мы работали с клиентами из Азии, Европы<br> странами СНГ, Америки и Африки
+                </div>
+            </div>
+            <img src="img/leadtrust.png" alt="" class="trust__img-leadust">
+            <img src="img/design.png" alt="" class="trust__img-1">
+            <img src="img/map.webp" alt="" class="trust__img-map">
+            <section class="steps">
+                <div class="steps__container">
+                    <div class="steps__title">Все благодаря 5 простым шагам</div>
+                    <div class="steps__row steps__row-desctop">
+                        <div class="steps__item _anim-items _anim-no-hide steps__item-1">
+                            <div class="steps__body box">
+                                <div class="steps__title-title">ШАГ 1</div>
+                                <div class="steps__image steps__image--1">
+                                    <img src="img/step1.webp" alt="Картинка робот" class="steps__img">
+                                </div>
+                                <div class="steps__description">Напишите нашему telegram боту</div>
+                                <a href="" class="steps__link">Заказать!</a>
+                            </div>
+                        </div>
+                        <div class="steps__item _anim-items _anim-no-hide steps__item-2">
+                            <div class="steps__body box">
+                                <div class="steps__title-title">ШАГ 2</div>
+                                <div class="steps__image steps__image--2">
+                                    <img src="img/step2.webp" alt="Картинка человек" class="steps__img steps__img-2">
+                                </div>
+                                <div class="steps__description">Опишите своё ТЗ менеджеру</div>
+                                <a href="" class="steps__link">Заказать!</a>
+                            </div>
+                        </div>
+                        <div class="steps__item _anim-items _anim-no-hide steps__item-3">
+                            <div class="steps__body box">
+                                <div class="steps__title-title">ШАГ 3</div>
+                                <div class="steps__image steps__image--3">
+                                    <img src="img/step3.webp" alt="Картинка рука" class="steps__img steps__img-3">
+                                </div>
+                                <div class="steps__description">Утвердите цену, ваш ТЗ</div>
+                                <a href="" class="steps__link">Заказать!</a>
+                            </div>
+                        </div>
+                        <div class="steps__item _anim-items _anim-no-hide steps__item-4">
+                            <div class="steps__body box">
+                                <div class="steps__title-title">ШАГ 4</div>
+                                <div class="steps__image steps__image--4">
+                                    <img src="img/step4.webp" alt="Картинка гаечный ключ"
+                                        class="steps__img steps__img-4">
+                                </div>
+                                <div class="steps__description">Внесите правки. Финальный аккорд!</div>
+                                <a href="" class="steps__link">Заказать!</a>
+                            </div>
+                        </div>
+                        <div class="steps__item _anim-items _anim-no-hide steps__item-5">
+                            <div class="steps__body box">
+                                <div class="steps__title-title">ШАГ 5</div>
+                                <div class="steps__image steps__image--5">
+                                    <img src="img/step5.webp" alt="Картинка смайлик" class="steps__img steps__img-5">
+                                </div>
+                                <div class="steps__description">Получите MAXимальный ROI с нашим продуктом!</div>
+                                <a href="" class="steps__link">Заказать!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="steps-slider swiper-container">
+                        <div class=" steps-slider__wrapper swiper-wrapper">
+                            <div class=" steps-slider__slide swiper-slide">
+                                <div class="steps-slider-box">
+                                    <div class="steps__body box">
+                                        <div class="steps__title-title">ШАГ 1</div>
+                                        <div class="steps__image steps__image--1">
+                                            <img src="img/step1.webp" alt="Картинка робот" class="steps__img">
+                                        </div>
+                                        <div class="steps__description">Напишите нашему telegram боту</div>
+                                        <a href="" class="steps__link">Заказать!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" steps-slider__slide swiper-slide">
+                                <div class="steps-slider-box">
+                                    <div class="steps__body box">
+                                        <div class="steps__title-title">ШАГ 2</div>
+                                        <div class="steps__image steps__image--2">
+                                            <img src="img/step2.webp" alt="Картинка человек"
+                                                class="steps__img steps__img-2">
+                                        </div>
+                                        <div class="steps__description">Опишите своё ТЗ менеджеру</div>
+                                        <a href="" class="steps__link">Заказать!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="steps-slider__slide swiper-slide">
+                                <div class="steps-slider-box">
+                                    <div class="steps__body box">
+                                        <div class="steps__title-title">ШАГ 3</div>
+                                        <div class="steps__image steps__image--3">
+                                            <img src="img/step3.webp" alt="Картинка рука"
+                                                class="steps__img steps__img-3">
+                                        </div>
+                                        <div class="steps__description">Утвердите цену, ваш ТЗ</div>
+                                        <a href="" class="steps__link">Заказать!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="steps-slider__slide swiper-slide">
+                                <div class="steps-slider-box">
+                                    <div class="steps__body box">
+                                        <div class="steps__title-title">ШАГ 4</div>
+                                        <div class="steps__image steps__image--4">
+                                            <img src="img/step4.webp" alt="Картинка гаечный ключ"
+                                                class="steps__img steps__img-4">
+                                        </div>
+                                        <div class="steps__description">Внесите правки. Финальный аккорд!</div>
+                                        <a href="" class="steps__link">Заказать!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="steps-slider__slide swiper-slide">
+                                <div class="steps-slider-box">
+                                    <div class="steps__body box">
+                                        <div class="steps__title-title">ШАГ 5</div>
+                                        <div class="steps__image steps__image--5">
+                                            <img src="img/step5.webp" alt="Картинка смайлик"
+                                                class="steps__img steps__img-5">
+                                        </div>
+                                        <div class="steps__description">Получите MAXимальный ROI с нашим продуктом!
+                                        </div>
+                                        <a href="" class="steps__link">Заказать!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__row">
+                    <div class="footer__left">
+                        <img src="img/icon/logo_white.webp" alt="" class="footer__logo">
+                        <div class="footer__name">LEADTRUST</div>
+                    </div>
+                    <div class="footer__center">
+                        <div class="footer__menu menu">
+                            <div class="footer__menu-icon">
+                                <span></span>
+                            </div>
+                            <nav class="footer__menu-body">
+                                <ul class="footer__menu-list ">
+                                    <li class="menu__link--first"><a data-goto=".digital__title" href="#"
+                                            class="menu__link">Информация</a>
+                                    </li>
+                                    <li><a data-goto=".steps" href="#" class="menu__link">Написать нам</a>
+                                    </li>
+                                    <li><a data-goto=".company__title" href="#" class="menu__link">Услуги</a>
+                                    </li>
+                                    <li><a data-goto=".decision" href="#" class="menu__link">О нас</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="footer__reserved">
+                        <img src="img/icon/2022.webp" alt="" class="footer__img">
+                        <div class="footer__reserved-reserved">All rights reserved</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
