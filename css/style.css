@@ -1171,11 +1171,11 @@ li:hover a.menu__link::before {
         position: absolute;
     }
 
-    .company-slider .swiper-button-prev::after {
+    .company-slider .swiper-button-prev {
         left: 110px;
     }
 
-    .company-slider .swiper-button-next::after {
+    .company-slider .swiper-button-next {
         right: 110px;
     }
 
