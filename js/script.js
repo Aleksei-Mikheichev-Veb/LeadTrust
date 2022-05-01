@@ -113,10 +113,10 @@ let myImageSlider = new Swiper('.steps-slider', {
     slideToClickedSlide: false,
 
     // Навигация по хешу
-    hashNavigation: {
-        // Отслеживать состояние
-        watchState: true,
-    },
+    // hashNavigation: {
+    //     // Отслеживать состояние
+    //     watchState: true,
+    // },
     // Автовысота
     autoHeight: false,
 
@@ -124,8 +124,8 @@ let myImageSlider = new Swiper('.steps-slider', {
     slidesPerView: 1,
 
     // Отключение функционала
-    // если слайдов меньше чем нужно
-    watchOverflow: true,
+    // // если слайдов меньше чем нужно
+    // watchOverflow: true,
 
     // Отступ между слайдами
     spaceBetween: 30,
@@ -149,7 +149,7 @@ let myImageSlider = new Swiper('.steps-slider', {
     loopedSlides: 0,
 
     // Свободный режим
-    freeMode: true,
+    freeMode: false,
 
 
     // Скорость
@@ -222,7 +222,7 @@ let myCompanySlider = new Swiper('.company-slider', {
     slidesPerColumn: 1,
 
     // Бесконечный слайдер
-    loop: false,
+    loop: true,
 
     // Кол-во дублирующих слайдов
     loopedSlides: 0,
