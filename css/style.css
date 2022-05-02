@@ -1222,11 +1222,11 @@ li:hover a.menu__link::before {
         width: 80%;
     }
 
-    .company-slider .swiper-button-prev::after {
+    .company-slider .swiper-button-prev {
         left: 90px;
     }
 
-    .company-slider .swiper-button-next::after {
+    .company-slider .swiper-button-next {
         right: 90px;
     }
 }
@@ -1249,11 +1249,11 @@ li:hover a.menu__link::before {
         width: 90%;
     }
 
-    .company-slider .swiper-button-prev::after {
+    .company-slider .swiper-button-prev {
         left: 40px;
     }
 
-    .company-slider .swiper-button-next::after {
+    .company-slider .swiper-button-next {
         right: 40px;
     }
 }
@@ -1278,11 +1278,11 @@ li:hover a.menu__link::before {
         width: 100%;
     }
 
-    .company-slider .swiper-button-prev::after {
+    .company-slider .swiper-button-prev {
         left: 0px;
     }
 
-    .company-slider .swiper-button-next::after {
+    .company-slider .swiper-button-next {
         right: 0px;
     }
 }
@@ -1305,11 +1305,11 @@ li:hover a.menu__link::before {
         width: 140%;
     }
 
-    .company-slider .swiper-button-prev::after {
+    .company-slider .swiper-button-prev {
         left: -20px;
     }
 
-    .company-slider .swiper-button-next::after {
+    .company-slider .swiper-button-next {
         right: -20px;
     }
 }
